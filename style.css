@@ -1,0 +1,63 @@
+body {
+ background-image: url("back.jpg");
+}
+
+h1{
+	color: white;
+	background: rgba(0, 0, 255, 0.3);
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.left{
+	float: left;
+}
+
+li{
+	text-align: left;
+	font-size: 20px;
+	list-style: none;
+}
+#heading{
+	font-size: 25px;
+}
+
+
+#mention{
+	border-left: 10px solid red;
+	margin-left: 2px;
+	margin-top: 10px;
+	
+
+}
+
+#river{
+	display: flex;
+	transition: 1s;
+	margin-right: 5px;
+	justify-content: space-around;
+}
+
+#infos{
+	margin-top: 5px;
+	text-indent: 50px;
+}
+
+
+#tour
+{
+	list-style: circle;
+}
+
+img{
+	margin-top: 5px;
+	padding-right:28px;
+	
+}
+
+
+@media (max-width:700px){
+	#mobile{
+		height:200px;
+	}
+	
+}
